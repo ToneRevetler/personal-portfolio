@@ -9,3 +9,12 @@ function toggleMenu(event){
 
 btnMobile.addEventListener('click', toggleMenu);
 btnMobile.addEventListener('touchstart', toggleMenu);
+
+
+var typed = new Typed('#typed',{
+    strings:["Designer Fullstack","Designer Gráfico","Desenvolvedor Front End"],
+    typeSpeed:100,
+    backSpeed:100,
+    backDelay:1000,
+    loop:true
+});
