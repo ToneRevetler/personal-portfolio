@@ -18,3 +18,18 @@ var typed = new Typed('#typed',{
     backDelay:1000,
     loop:true
 });
+
+
+const input = "mirandatone@outlook.com"
+
+function copyToClipboard(){
+    navigator.clipboard.writeText(input).then(() =>{
+        
+        const clickParaCopiar = document.getElementById('textoClickCopiar')
+        clickParaCopiar.innerHTML = 'Email copiado!!'
+
+        setTimeout(function(){
+            clickParaCopiar.innerHTML="Clique para copiar!";
+        },2000)
+    })
+}
