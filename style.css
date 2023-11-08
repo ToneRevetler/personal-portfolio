@@ -522,5 +522,68 @@ a:hover{
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        height: auto;
     }
+
+    .textoSection1{
+        width: 85vw;
+        height: auto;
+    }
+
+    .textoSection1{
+        text-align: center;
+        height:70rem;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        gap: 10;
+        background-color: red;
+    }
+
+    .textoSection1 h1{
+        font-size: 60px;
+    }
+
+    .textoSection1 span{
+        font-size: 40px;
+    }
+
+    .textoSection1 h2{
+        height: 90px;
+    }
+
+    .textoSection1 p{
+        height: 40px;
+    }
+
+    .persona{
+        display: none;
+    }
+
+    .textoEmail{
+        max-width: 90vw;
+    }
+
+    .inputEmail{
+        height: 8vh;
+        width: 70vw;
+        font-size: 20px;
+        display: flex;
+        justify-content: center;
+        padding-left: 130px;
+    }
+
+    .LetterIcon, .LetterIcon i{
+        height: 8vh;
+        width: 8vh;
+        font-size: 35px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }  
+    
+    #textoClickCopiar{
+        font-size: 20px;
+    }
+
 } 
